@@ -1,17 +1,12 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Routes from './routes';
+
+import './global.css';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Semana OmniStack 11.0
-        </p>
-      </header>
-    </div>
+    <Routes />
   );
 }
 
